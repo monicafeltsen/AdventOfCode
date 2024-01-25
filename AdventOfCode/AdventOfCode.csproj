@@ -8,10 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="2022\2022-01.txt" />
     <None Remove="2023\2023-01.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="2022\2022-01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="2023\2023-01.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
