@@ -34,7 +34,7 @@ namespace AdventOfCode.Year2022
                     sum += int.Parse(x);
                 }
             }
-            Console.WriteLine(topsum);
+            Console.WriteLine($"this is score of 1a 2022 {topsum}");
 
         }
     }

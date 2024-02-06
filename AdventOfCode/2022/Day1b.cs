@@ -36,7 +36,7 @@ namespace AdventOfCode.Year2022
             }
            
 
-            Console.WriteLine(sums.OrderByDescending(x => x).Take(3).Sum());
+            Console.WriteLine($"this is score of 1b 2022 {sums.OrderByDescending(x => x).Take(3).Sum()}");
         }
     }
 }
